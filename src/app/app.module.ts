@@ -5,12 +5,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 
-import { environment } from 'src/environments/environment';
 import { MymapComponent } from './mymap/mymap.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TimelineComponent } from './timeline/timeline.component';
+
+import { NgxTimelineVerticalModule } from 'ngx-timeline-vertical';
 
 @NgModule({
-  declarations: [AppComponent, MymapComponent],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  declarations: [AppComponent, MymapComponent, TimelineComponent],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    NgxTimelineVerticalModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
