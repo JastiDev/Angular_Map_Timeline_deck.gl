@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "myNgTest"
+    }
+  },
+  "defaultProject": "myNgTest",
+  "cli": {
+    "analytics": "182544d6-73e2-481b-ba9b-8e366784ca67"
+  }
 }
