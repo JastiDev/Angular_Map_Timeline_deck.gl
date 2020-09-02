@@ -26,6 +26,7 @@
     "@deck.gl/layers": "^8.2.6",
     "@deck.gl/mesh-layers": "^8.2.6",
     "@types/mapbox-gl": "^1.11.2",
+    "angular-google-charts": "^1.1.4",
     "angular-mgl-timeline": "^0.3.3",
     "angular-vertical-timeline": "^0.6.0",
     "mapbox-gl": "^1.12.0",
